@@ -27,8 +27,8 @@ app.get('/buy' , ( req , res ) => {
 		"payment_method": "paypal"
 	},
 	"redirect_urls": {
-		"return_url": "https://paypalauthbyanil.herokuapp.com/:80/success",
-		"cancel_url": "https://paypalauthbyanil.herokuapp.com/:80/err"
+		"return_url": "https://paypalauthbyanil.herokuapp.com/success",
+		"cancel_url": "https://paypalauthbyanil.herokuapp.com/err"
 	},
 	"transactions": [{
 		"amount": {
