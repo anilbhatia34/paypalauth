@@ -4,7 +4,8 @@
   "description": "how to start accepting payments on your website using paypal",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "paypal",
@@ -15,12 +16,28 @@
     "integration",
     "in",
     "web",
-    "apps"
+    "apps",
+    "heroku"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilbhatia34/paypalauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anilbhatia34/paypalauth/issues"
+  },
+  "homepage": "https://github.com/anilbhatia34/paypalauth#readme",
   "author": "@nodejsera",
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.4",
+    "cool-ascii-faces": "^1.3.4",
     "paypal-rest-sdk": "^1.7.1"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
