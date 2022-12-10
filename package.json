@@ -31,7 +31,7 @@
   "license": "MIT",
   "dependencies": {
     "cool-ascii-faces": "^1.3.4",
-    "express": "^4.15.4",
+    "express": "^4.17.3",
     "paypal-rest-sdk": "^1.7.1"
   },
   "engines": {
